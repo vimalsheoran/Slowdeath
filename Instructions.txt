@@ -1,0 +1,5 @@
+#General instructions for running the python file
+
+use : 
+  python slowdeath.py
+command on your terminal or on the cmd and see the magic.
