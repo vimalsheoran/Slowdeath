@@ -1,0 +1,15 @@
+include library_random
+include library_os/create folders
+
+function_to_generate_random_name(length){
+  return random_string.based_on(length)
+}
+
+while true{
+  folder_name = function_to_generate_random_name(length)
+  file_name = function_to_generate_random_name(length)
+  created_folder(path = folder_name)
+  file_path = created_folder.path() + file_name
+  file_name.write("a lot of zeros but not too much")
+  file.close()
+}
